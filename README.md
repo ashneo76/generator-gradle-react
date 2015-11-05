@@ -1,6 +1,6 @@
 # generator-gradle-react [![Build Status](https://secure.travis-ci.org/ashneo76/generator-gradle-react.png?branch=master)](https://travis-ci.org/ashneo76/generator-gradle-react)
 
-> [Yeoman](http://yeoman.io) generator
+> [Yeoman](http://yeoman.io) generator for Gradle + React + Browserify + SASS
 
 
 ## Getting Started
