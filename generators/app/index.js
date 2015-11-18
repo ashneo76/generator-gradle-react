@@ -9,7 +9,8 @@ module.exports = yeoman.generators.Base.extend({
 
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the excellent ' + chalk.red('GradleReact') + ' generator!'
+      'Welcome to the excellent ' + chalk.red('Gradle-React') + ' generator!'
+      + 'This will create a project directory with neccessary Gradle + React files'
     ));
 
     var prompts = [{
@@ -96,7 +97,7 @@ module.exports = yeoman.generators.Base.extend({
 
   install: function () {
     if(!this.options.skipInstall) {
-      this.spawnCommand('gradle', ['wrapper']);
+      this.log('Run "gradle wrapper && ./gradlew setup" in the project root to get started');
     }
   }
 });
