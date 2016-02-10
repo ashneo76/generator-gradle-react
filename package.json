@@ -1,7 +1,7 @@
 {
   "name": "generator-gradle-react",
-  "version": "0.0.3",
-  "description": "Yeoman generator",
+  "version": "0.0.4",
+  "description": "Gradle + Gulp + Spring Boot + Groovy + React",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "ashneo76/generator-gradle-react",
