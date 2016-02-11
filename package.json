@@ -1,6 +1,6 @@
 {
   "name": "generator-gradle-react",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Gradle + Gulp + Spring Boot + Groovy + React + Browserify + SASS",
   "license": "MIT",
   "main": "app/index.js",

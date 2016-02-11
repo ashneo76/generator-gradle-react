@@ -18,7 +18,7 @@
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.4",
     "jquery": "^2.1.4",
-    "lodash": "^3.7.0",
+    "lodash": "^4.3.0",
     "moment": "^2.10.2",
     "nodeunit": "^0.9.1",
     "react": "^0.14.7",
