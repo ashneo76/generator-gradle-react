@@ -24,10 +24,10 @@ function bundle(file, watch) {
     function rebundle() {
         var stream = bundler.bundle();
         return stream.on('error', function(error){
-			if(error){
-				gutil.log(error.message);
-			}
-		})
+          if(error){
+				    gutil.log(error.message);
+			    }
+		    })
         .pipe(source(file))
         .pipe(gulp.dest(buildRoot + '/js'))
         .on('end', function (options) {
@@ -41,7 +41,7 @@ function bundle(file, watch) {
         gutil.log('Rebundling...');
     });
 
-	gutil.log('Done bundling...');
+    gutil.log('Done bundling...');
     return rebundle();
 }
 

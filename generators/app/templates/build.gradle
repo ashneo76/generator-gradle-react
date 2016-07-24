@@ -14,7 +14,8 @@ buildscript {
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.4.RELEASE")
         classpath("io.spring.gradle:dependency-management-plugin:0.5.3.RELEASE")
-        classpath("com.moowork.gradle:gradle-gulp-plugin:0.10")
+        classpath("com.moowork.gradle:gradle-gulp-plugin:0.13")
+        classpath("com.moowork.gradle:gradle-node-plugin:0.13")
         // classpath("org.kordamp.gradle:livereload-gradle-plugin:0.2.1")
     }
 }
@@ -30,7 +31,7 @@ repositories {
 dependencies {
     compile localGroovy()
 
-    compile("joda-time:joda-time:2.8.2")
+    compile("joda-time:joda-time:2.9.4")
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-autoconfigure")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
